@@ -9,17 +9,17 @@
         
        <input type="text" id="scroller" name="service_time" value="" placeholder="请选择婚礼时间" name="destination" />
 
-       1 //日历插件
+      //日历插件
       $(function(){
           var currYear = (new Date()).getFullYear();
           //初始化日期控件
           var opt = {
-              preset: 'date', //日期，可选：date\datetime\time\tree_list\image_text\select
-              theme: 'android-ics light', //皮肤样式，可选：default\android\android-ics light\android-ics\ios\jqm\sense-ui\wp light\wp
-              display: 'bubble', //显示方式 ，可选：modal\inline\bubble\top\bottom
-              mode: 'scroller', //日期选择模式，可选：scroller\clickpick\mixed
-              lang:'zh',
-              dateFormat: 'yyyy-mm-dd', // 日期格式
+             preset: 'date', //日期，可选：date\datetime\time\tree_list\image_text\select
+             theme: 'android-ics light', //皮肤样式，可选：default\android\android-ics light\android-ics\ios\jqm\sense-ui\wp light\wp
+             display: 'bubble', //显示方式 ，可选：modal\inline\bubble\top\bottom
+             mode: 'scroller', //日期选择模式，可选：scroller\clickpick\mixed
+             lang:'zh',
+             dateFormat: 'yyyy-mm-dd', // 日期格式
             setText: '确定', //确认按钮名称
             cancelText: '取消',//取消按钮名籍我
             dateOrder: 'yyyymmdd', //面板中日期排列格式
